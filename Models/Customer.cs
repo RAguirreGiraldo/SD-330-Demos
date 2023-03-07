@@ -10,7 +10,5 @@ namespace SD_330_Demos.Models
         public string? CompanyName { get; set; }
         public string? Phone { get; set; }
         public virtual HashSet<Address> Addresses { get; set; } = new HashSet<Address>();
-
-
     }
 }

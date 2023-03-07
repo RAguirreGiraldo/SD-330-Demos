@@ -11,6 +11,6 @@
         public string Country { get; set; }
         public string CountryRegion { get; set; }
 
-        public virtual HashSet<Customer> Customers { get; set; }=new HashSet<Customer?>();
+        public virtual HashSet<Customer> Customers { get; set; }= new HashSet<Customer?>();
     }
 }
